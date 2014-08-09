@@ -1,0 +1,26 @@
+{
+    "name":         "carlosV2/valkyrie",
+    "description":  "Easy functional tests for PHP 5.5",
+    "type":         "library",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name":      "Carlos Ortega",
+            "email":     "carlosV2.0@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "symfony/console": "~2.0",
+        "behat/behat": "2.4.*@stable"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "~3.7.19"
+    },
+
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
